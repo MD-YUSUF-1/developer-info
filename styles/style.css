@@ -59,3 +59,51 @@
     margin-bottom: 44px;
 }
 /* Banner Styles ends */
+
+.main-reason-container{
+    margin: 74px auto 90px;
+width: 1140px;
+padding: 80px 97px;
+align-items: center;
+background-color: red;
+border-radius: 16px;
+/* background: rgba(13, 19, 33, 0.02); */
+}
+.main-reason-container-title{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.main-reason-container-sub-title{
+    color: #0D1321;
+text-align: center;
+font-family: "Azeret Mono";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+opacity: 0.7;
+}
+
+
+.reason-container-reasons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.reason-1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
